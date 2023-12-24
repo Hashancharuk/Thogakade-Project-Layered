@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerFormController">
+   <children>
+      <TextField fx:id="txtId" layoutX="21.0" layoutY="80.0" prefHeight="31.0" prefWidth="88.0" />
+      <TextField fx:id="txtName" layoutX="135.0" layoutY="81.0" prefHeight="31.0" prefWidth="120.0" />
+      <TextField fx:id="txtAddress" layoutX="283.0" layoutY="81.0" prefHeight="31.0" prefWidth="115.0" />
+      <TextField fx:id="txtSalary" layoutX="420.0" layoutY="80.0" prefHeight="31.0" prefWidth="101.0" />
+      <JFXButton fx:id="btnSave" layoutX="448.0" layoutY="118.0" onAction="#saveButtonOnAction" text="Save" textAlignment="CENTER" textFill="#111111">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <TableView fx:id="tblCustomer" layoutX="27.0" layoutY="163.0" prefHeight="200.0" prefWidth="551.0">
+        <columns>
+          <TableColumn fx:id="colId" prefWidth="97.0" text="ID" />
+          <TableColumn fx:id="colName" prefWidth="86.33332824707031" text="Name" />
+            <TableColumn fx:id="colAddress" prefWidth="112.0" text="Address" />
+            <TableColumn fx:id="colSalary" prefWidth="154.0" text="Salary" />
+            <TableColumn fx:id="colOption" prefWidth="100.0" text="Option" />
+        </columns>
+      </TableView>
+      <JFXButton fx:id="btnUpdate" layoutX="505.0" layoutY="119.0" onAction="#updateButtonOnAction" text="Update">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnReload" layoutX="511.0" layoutY="366.0" onAction="#reloadButtonOnAction" text="Reload" textFill="#a41111">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></JFXButton>
+      <Label layoutX="56.0" layoutY="53.0" prefHeight="21.0" prefWidth="18.0" text="ID" />
+      <Label layoutX="169.0" layoutY="53.0" text="Name" />
+      <Label layoutX="311.0" layoutY="53.0" text="Address" />
+      <Label layoutX="448.0" layoutY="53.0" text="Salary" />
+      <JFXButton fx:id="btnBack" layoutX="24.0" layoutY="9.0" onAction="#backButtonOnAction" text="Back">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardFormController">
+   <children>
+      <JFXButton fx:id="btn_customer" layoutX="27.0" layoutY="120.0" onAction="#customerButtonOnAction" text="Customer" textAlignment="CENTER" textFill="#a11616">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></JFXButton>
+      <Label fx:id="lblTime" layoutX="487.0" layoutY="25.0" prefHeight="21.0" prefWidth="99.0" text="HH:mm:ss" textFill="#180f9a">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <JFXButton fx:id="btnItem" layoutX="43.0" layoutY="191.0" onAction="#itemButtonOnAction" text="Item" textFill="#1b0606">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></JFXButton>
+      <JFXButton fx:id="btnPlaceOrder" layoutX="22.0" layoutY="259.0" onAction="#placeOrderButtonOnAcrtion" prefHeight="48.0" prefWidth="105.0" text="Place Order" textFill="#bf1313">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></JFXButton>
+   </children>
+</AnchorPane>

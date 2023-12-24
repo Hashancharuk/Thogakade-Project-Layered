@@ -1,0 +1,58 @@
+
+g	java:S112b"FDefine and throw a dedicated exception instead of using a generic one.(«±ôÍøÿÿÿÿ8à§¾µÈ1
+Q
+java:S3740("/Provide the parametrized type for this generic.(•³îŞùÿÿÿÿ8á§¾µÈ1
+L
+java:S3740)"/Provide the parametrized type for this generic.(“ĞÃâ8á§¾µÈ1
+Q
+java:S3740*"/Provide the parametrized type for this generic.(ÊÚÎ¨ùÿÿÿÿ8á§¾µÈ1
+L
+java:S3740+"/Provide the parametrized type for this generic.(¯ÿı°8á§¾µÈ1
+L
+java:S3740,"/Provide the parametrized type for this generic.(Ã‹äÄ8á§¾µÈ1
+L
+java:S3740/"/Provide the parametrized type for this generic.(ºçÎ´8á§¾µÈ1
+s
+java:S1104#"QMake txtId a static final constant or non-public and provide accessors if needed.(â…ô‰øÿÿÿÿ8á§¾µÈ1
+p
+java:S1104$"SMake txtName a static final constant or non-public and provide accessors if needed.(ºßÕû8á§¾µÈ1
+x
+java:S1104%"VMake txtAddress a static final constant or non-public and provide accessors if needed.(ºåıÿÿÿÿ8á§¾µÈ1
+r
+java:S1104&"UMake txtSalary a static final constant or non-public and provide accessors if needed.(¥à¯¡8á§¾µÈ1
+p
+java:S1104'"SMake btnSave a static final constant or non-public and provide accessors if needed.(çˆ©Õ8á§¾µÈ1
+y
+java:S1104("WMake tblCustomer a static final constant or non-public and provide accessors if needed.(•³îŞùÿÿÿÿ8á§¾µÈ1
+n
+java:S1104)"QMake colId a static final constant or non-public and provide accessors if needed.(“ĞÃâ8á§¾µÈ1
+u
+java:S1104*"SMake colName a static final constant or non-public and provide accessors if needed.(ÊÚÎ¨ùÿÿÿÿ8á§¾µÈ1
+s
+java:S1104+"VMake colAddress a static final constant or non-public and provide accessors if needed.(¯ÿı°8á§¾µÈ1
+r
+java:S1104,"UMake colSalary a static final constant or non-public and provide accessors if needed.(Ã‹äÄ8á§¾µÈ1
+r
+java:S1104-"UMake btnUpdate a static final constant or non-public and provide accessors if needed.(§Å‰÷8á§¾µÈ1
+r
+java:S1104."UMake btnReload a static final constant or non-public and provide accessors if needed.(õæş8á§¾µÈ1
+r
+java:S1104/"UMake colOption a static final constant or non-public and provide accessors if needed.(ºçÎ´8á§¾µÈ1
+p
+java:S11040"SMake btnBack a static final constant or non-public and provide accessors if needed.(ÿòØ8á§¾µÈ1
+I
+java:S1602=",Remove useless curly braces around statement(ŠĞå™8ù§¾µÈ1
+O
+java:S1172w"2Remove this unused method parameter "actionEvent".(Š²“ñ8ı§¾µÈ1
+P
+java:S1172‹"2Remove this unused method parameter "actionEvent".(°§¾8ı§¾µÈ1
+U
+java:S1172"2Remove this unused method parameter "actionEvent".(Ø¸ïƒûÿÿÿÿ8ş§¾µÈ1
+U
+java:S1172¯"2Remove this unused method parameter "actionEvent".(Íáå‘ùÿÿÿÿ8ş§¾µÈ1
+\
+java:S1128":Remove this unused import 'bo.custom.impl.CustomerBoImpl'.(–×³€ÿÿÿÿÿ8¨Â«ÚÉ1
+U
+java:S1128"3Remove this unused import 'dao.custom.CustomerDao'.(‰‡¬«úÿÿÿÿ8¨Â«ÚÉ1
+Y
+java:S1128"<Remove this unused import 'dao.custom.impl.CustomerDaoImpl'.(á·Ì‰8¨Â«ÚÉ1
